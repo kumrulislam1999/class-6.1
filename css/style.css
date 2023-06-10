@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 1500px;
+}
+
 header {
     background-color: rgb(215, 179, 248);
     width: 100%;
@@ -37,7 +41,7 @@ li {
 
 a {
     text-decoration: none;
-    padding: 0px 10px;
+    padding: 0px 25px;
     font-size: 30px;
     border: 5px transparent;
     font-family: 'Teko', sans-serif;
@@ -61,18 +65,19 @@ li:hover {
 }
 
 #bannar>div>p {
-    color: white;
-    border: 30px dotted transparent;
+    border: 30px solid transparent;
+    color: rgb(255, 210, 10);
+    font-size: 30px;
     padding: 20px;
     text-align: justify;
     border-image-source: url(./tree-736885_1280.jpg);
     border-image-slice: 10;
     border-image-width: 20px;
     border-image-repeat: no-repeat;
-    background-image: url(./image-1-1.png), url(./dm4.jpg);
-    background-size: cover, cover;
-    background-repeat: no-repeat, no-repeat;
-    background-clip: padding-box, content-box;
+    background-image: url(./image-1-1.png), url(./image_9.png), url(./dm4.jpg);
+    background-size: cover, cover, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-clip: border-box, padding-box, content-box;
     background-blend-mode: difference;
 
 
